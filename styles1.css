@@ -11,9 +11,10 @@
     "wdth" 100;
 }
 .header {
-    background-image: url(images/developer.png); 
-    /* background-repeat: no-repeat; */
-    background-size: contain;
+    background-image: url(images/developer.png), url(images/header_bg.png); 
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: contain, 50%;
 }
 .logo {
     width: 7vw;
@@ -32,14 +33,14 @@ nav ul li {
 nav ul {
     display: flex;
     gap: 6vw;
-    /* justify-content: space-evenly;
-    align-items: center; */
+    /* justify-content: space-evenly;*/
+    align-items: center; 
 }
 nav {
     display: flex;
     align-items: center;
     margin: 1vh 10vw;
-    justify-content:space-between;
+    justify-content: space-between;
     background: transparent;
 }
 /* .Og-btn {
@@ -94,7 +95,8 @@ nav {
     background: transparent;
 }
 .img-area {
-    width: 35vw;
+    width: 42vw;
+    height: 45vw;
     background: transparent;
     /* max-width: 100%; */
 }
@@ -102,8 +104,45 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2vw;
-    margin: 0 10vw;
+    gap: 1vw;
+    margin: 0vh 0vw 2.04vh 10vw;
     height: 100%;
     background: transparent;
 }
+/* Main Styles */
+
+* {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About ME SECTION */
+.about-head {
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+.box p {
+    font-size: 1.1vw;
+    line-height: 1.8;
+    color: #757575;
+}
+.th1 {
+    color: #757575;
+    font-size: 1.15vw;
+}
+.tr1 {
+    color: #474747;
+    font-size: 1.15vw;
+    font-weight: bold;
+}
+/* .box {
+    display: inline-block;
+    width: 43.08vw;
+    border: 0.1vw solid #000000;
+    background-color: #FFF8F3;
+    border-radius: 1vw;
+}
+.box-over {
+    border: 8.18vw solid rgb(197, 197, 197)
+} */
