@@ -1,0 +1,17 @@
+Pushing code for the first time to a new repository.
+this is the way to go
+
+echo "# web-developer-portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ahmed-Sabit/PG-portfolio-website.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+
+git add .
+git commit -m ""
+git push -u origin main 
