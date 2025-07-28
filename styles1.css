@@ -12,7 +12,7 @@
 }
 .header {
     background-image: url(images/developer.png); 
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: contain;
 }
 .logo {
